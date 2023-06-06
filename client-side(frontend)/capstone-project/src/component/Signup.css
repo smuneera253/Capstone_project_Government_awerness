@@ -1,0 +1,139 @@
+.big{
+    /* background-image: url("../../public/flower.jpeg");
+    background-size:cover ; */
+
+}
+.main1{
+    width: 900px;
+    height: 700px;
+    border: 1px solid black;
+    margin-left: 500px;
+    display: flex;
+   /* margin-top: 150px;*/
+    border-radius: 10px;
+}
+.main2{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left:20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color:#594b4b; 
+     /* opacity: 0.5; */
+    /* background-image: url("../../public/India.jpeg");
+   background-size:cover ; */
+
+}
+.main3{
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgb(8, 8, 8);
+    margin-left:10px;
+    border-radius: 10px;
+   /* background-image: url("../../public/back2.jpeg");
+   background-size:cover ; */
+    margin-top: 40px;
+    background-color: #797272;
+    /* opacity: 0.5; */
+
+}
+.sign{
+    margin-left: 130px;
+    font-size: 30px;
+    color-scheme: blue;
+    color: aliceblue;
+}
+img{
+    height: 600px;
+    width: 450px;
+}
+.logo1{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 110px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.logo2{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.logo3{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 110px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.logo4{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 110px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.user1{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.user2{
+    margin-left: 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.name{
+    margin-left: 40px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+.Email{
+    margin-left: 40px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+.password{
+    margin-left: 40px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    margin-top: 30px;
+  }
+  
+  .line {
+    flex-grow: 2;
+    height: 2px;
+    background-color: #e8e3e3;
+  }
+  
+  .or-text {
+    margin: 0 10px;
+    color: #ebe5e5;
+    font-size: 30px;
+  }
+  .justice{
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+  }
+  .signuplogo{
+    margin-left: 1100px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 54px;
+    margin-top: 150px;
+  }
