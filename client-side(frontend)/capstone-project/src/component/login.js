@@ -3,10 +3,10 @@ import './login.css'
 
 function login(){
     return(
-        // <div style={{ backgroundColor: "blueviolet", Height: "100vh" }}>
+       
         <div className="box">
            
-            <div className="box1">
+            <div className="box2">
                  <p className="login">login</p>
                     <p className="username">Email:</p>
                     <input type="Email" Placeholder="email" className="classemail"></input><br></br>

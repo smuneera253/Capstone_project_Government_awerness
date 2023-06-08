@@ -30,10 +30,10 @@ function Signup(){
                         <div className="line"></div>
                         
                     </div>
-                     <img className="logo1" src="google.webp" alt="image"/>
-                     <img className="logo2" src="facebook.webp" alt="image"/>
-                     <img className="logo3" src="intagrame.png" alt="image"/>
-                     <img className="logo4" src="Twitter.png" alt="image"/>
+                     <img className="logo1" src="resources/google.webp" alt="image"/>
+                     <img className="logo2" src="resources/facebook.webp" alt="image"/>
+                     <img className="logo3" src="resources/intagrame.png" alt="image"/>
+                     <img className="logo4" src="resources/Twitter.png" alt="image"/>
                      
                      <h3 className="login">already user ?<span>login</span></h3>
                 
