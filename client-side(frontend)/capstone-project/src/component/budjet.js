@@ -52,7 +52,7 @@ function budget(){
                                </select>
                                </div>
                        <span img src="resources/search1.png" className="poltical bottom">Poltical leaders</span>
-                       <span className="poltical bottom">Government budjet</span>
+                       <span className="poltical bottom">Government budget</span>
                        <span className="poltical bottom">Government plans</span>
                        <span className="poltical bottom">Government office number</span>
                        <span className="poltical bottom">Tourist place</span>
@@ -78,20 +78,80 @@ function budget(){
                                 <ul>
                                     <li><p className="central state">Central Government budget </p></li>
                                     <li><p className="central state">state Government budget </p></li>
-                                    <li><p className="central state">Distric budget </p></li>
-                                    <li><p className="central state">Mandal budget </p></li>
+                                    <li><p className="central state">District budget </p></li>
+                                    <li><p className="central state">Mandel budget </p></li>
                                     <li><p className="central state">Total budget </p></li>
+                                    <li><p className="central state">Education deparment</p></li>
+                                    <li><p className="central state">agriculture deparment</p></li>
+                                    <li><p className="central state">Railway department</p></li>
                                 </ul>
                             </div>
                     </div>
                     <div className="main3">
-                       <div className="text">
-                        <p className="gov1 AP pink">www.indiabudget.gov.in.</p>
-                        <p className="gov1 AP pink">AP Finance Department</p>
-                        <h3 className="gov11 AP pink">.inIndia Budget | Ministry of Finance | Government of India</h3>
-                        <p className="gov1 AP pink">The division also handles coordination, compilation and printing of the Detailed Demands for</p>
-                        <p className="gov1 AP pink">Grants and the Outcome Budget Note: The Budget data in excel has been generated from System.</p>
-                       </div>
+                        <div className="budget11">
+                        <img src="/resources/gettyimages.jpg" className="storemoney"/>
+                        <div className="Dpart">
+                            <h3>Agriculture:</h3>
+                            <p className="top">250000/ croror  for agriculture department.</p>
+                         </div>
+                       
+                        <div className="Dpart">
+                            <h3>Railway:</h3>
+                            <p className="top">30000 / croror for  railway department.</p>
+                        </div>
+                        
+                        <div  className="Dpart">
+                            <h3>Education:</h3>
+                             <p className="top">50000 / croror for  Education deparment. </p>
+                        </div>
+                        
+                        <div  className="Dpart">
+                            <h3>Health :</h3>
+                            <p className="top">4000/ croror for  health care deparment</p>
+                        </div>
+                        
+                    </div>
+                      
+                    </div>
+                    <div className="main4">
+                        <div  className="top">
+                        {/* <img src="/resources/Budget1.png" className="dolar"/> */}
+                            <h3 className="lines">more information</h3>
+                         <ul>
+                            <li><p className=" state">Andhra pradesh</p></li>
+                            <li><p className=" state">Karnataka</p></li>
+                            <li><p className=" state"> Tamil nadu</p></li>
+                            <li><p className=" state">kerala</p></li>
+                            <li><p className=" state">Madhya pradesh</p></li>
+                            <li><p className=" state">Delhi</p></li>
+                            <li><p className=" state">Punjab</p></li>
+                            <li><p className=" state">Gujarat</p></li>
+                            <li><p className=" state">Goa</p></li>
+                            <li><p className=" state">Rajasthan</p></li>
+                            <li><p className=" state">Odisha</p></li>
+                         </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="step1">
+                    <div className="step2">
+                        <div className="agri">
+                            <img src="resources/agriculture11.jpg" className="agricultureImage"/>
+                            <div className="aboutthetext">
+                                <h2 className="gap1">Agriculture</h2>
+                                <ul>
+                                <li className="gap"><p > Agriculture is the process of producing crops and rearing animals for gaining profit.</p></li>
+                                <li className="gap"><p> Agriculture provides occupation to a huge Indian population.</p></li>
+                                <li className="gap"><p>The contributor to India’s more than 15% GDP is agriculture.</p></li>
+                                <li className="gap"><p>Agriculture is the occupation that gives us crops to eat.</p></li>
+                                <li className="gap"><p> Fruits, pulses, oil, vegetables, etc things are obtained through agriculture.</p></li>
+                                <li><p className="gap">Agriculture also provides us with leather, cotton, wool, and other animal products.</p></li>
+                                <li><p className="gap">Agriculture can reduce starvation, poverty, and can raise employment to some extent.</p></li>
+                                </ul>
+                                <button className="btn1">view all</button>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 
