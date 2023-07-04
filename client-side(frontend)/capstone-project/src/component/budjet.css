@@ -1,0 +1,317 @@
+.navbar{
+    width:100%;
+    height: 230px;
+    border: 1px solid black;
+    background-color: rgb(53, 16, 87);
+}
+#cars{
+  margin-left: 40px;
+  margin-bottom:50px;
+  width:70px;
+  height:30px;
+  border-radius:5px;
+  background-color:#242124 ;
+  color:white;
+  margin-top:10px;
+  border-right: none;
+}
+.line1{
+  display: flex;
+}
+.skip{
+  margin-left: 30px;
+  font-size:15px;
+  color: rgb(253, 250, 250);
+
+}
+.Dark{
+  margin-left: 30px;
+  font-size:15px;
+  background-color: var(--background-color);
+  color: rgb(254, 249, 249);
+}
+
+.Mood {
+  color: var(--text-color);
+  color: rgb(250, 245, 245);
+}
+.about{
+  margin-left: 1250px;
+  color: rgb(241, 239, 239);
+}
+.img1{
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+ margin-bottom: 20px;
+}
+.img2{
+  width:150px;
+  height: 100px;
+  margin-left: 20px;
+  border: 1px solid rgb(53, 16, 87);
+  margin-top: -20px;
+}
+.image{
+  width:500px;
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-left: 200px;
+  background-image: url("../../public/resources/govt.jpeg");
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.flex{
+  display: flex;
+}
+.search{
+  width: 600px;
+  height: 36px;
+  border-radius: 20px;
+  margin-left: 90px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.btn{
+  width: 50px;
+  height: 47px;
+  margin-top: 15px;
+}
+.img3{
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.nav{
+  display: flex;
+  color: white;
+  margin-left: 20px;
+}
+.topic{
+  color: rgb(25, 24, 24);
+  margin-left: 20px;
+}
+.poltical{
+  margin-left: 90px;
+  font-size: 15px;
+}
+.back{
+    background-color: rgb(53, 16, 87);
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 60px;
+    
+  }
+  .bottom:hover{
+      border-bottom: 3px solid rgb(245, 6, 6) ;
+      
+  }
+  .option{
+      border-bottom: 3px solid rgb(245, 6, 6) ;
+  }
+  .sign11{
+    margin-left: 200px;
+    color: white;
+    margin-top: 35px;
+  }
+  .login{
+    margin-left: 40px;
+    color: white;
+    margin-top: 35px;
+  }
+  .main1{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+  }
+  .main2{
+    width: 350px;
+    height: 550px;
+    /* border: 1px solid black ; */
+    margin-top: 20px;
+    margin-left: 44px;
+    /* background-image: url("../../public/resources/budgetImg.png"); */
+    /* background-size: cover; */
+    /* background-color: aquamarine; */
+    box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+    border-radius: 10px;
+    
+
+  }
+  .main3{
+    width: 900px;
+    height: 550px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 44px;
+    background-color: rgb(250, 250, 249);
+    box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+    border-radius: 10px;
+   
+  }
+  .dolar{
+    width: 50px;
+    height: 50px;
+
+  }
+  .firstbox{
+    display: flex;
+  }
+  .boderbottom{
+    border-bottom: 3px solid rgb(252, 3, 3);
+    font-size: 20px;
+    
+}
+.central{
+    border-bottom: 1px solid  rgb(248, 10, 10);
+    font-size: 15px;
+    margin-right: 30px;
+    margin-top: 27px;
+}
+.state:hover{
+    color: blueviolet;
+}
+.main4{
+  width: 270px;
+  height: 550px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  margin-left: 44px;
+  margin-left: 20px;
+  box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+  background-color: rgb(53, 16, 87);
+  border-radius: 10px;
+  color: white;
+}
+
+.storemoney{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.budget11{
+  margin-left: 50px;
+}
+.Dpart{
+  display: flex;
+}
+.top{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.lines{
+  border-bottom: 3px solid rgb(131, 3, 3);
+  margin-right: 70px;
+  margin-left: 20px;
+}
+.step1{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  margin-top: 150px;
+  background-color: rgb(146, 84, 205);
+ 
+}
+.step2{
+  width: 95%;
+  height: 500px;
+  /* border: 1px solid black; */
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 16px rgba(13, 48, 186, 0.2);
+
+}
+.agricultureImage{
+  width: 650px;
+  height: 410px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.agri{
+  display: flex;
+}
+.aboutthetext{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.gap{
+  margin-top: 30px;
+}
+.gap1{
+  margin-left: 40px;
+  color: blueviolet;
+
+}
+.btn1{
+  width: 100px;
+  height: 34px;
+  border-radius: 10px;
+  background-color: rgb(229, 63, 8);
+  color: white;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+.box6{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 380px;
+    background-color: rgb(26, 37, 86);
+  }
+  .box7{
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color: rgb(63, 15, 105);
+  }
+  .back1{
+    margin-left: 800px;
+    margin-top: 30px;
+    color: white;
+  }
+  .aboutus{
+    margin-left: 300px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+  }
+  .foter{
+    margin-left: 65px;
+  }
+  
+  .facebook1{
+    width: 55px;
+    height: 53px;
+    margin-left: 10px;
+   
+  }
+  .Twitter{
+    width: 40px;
+    height: 43px;
+    margin-left: 750px;
+    margin-top: 5px;
+  }
+  .linkdil{
+    width: 40px;
+    height: 43px;
+    margin-left: 26px;
+    margin-top: 5px;
+  }
+  .icon2{
+        display: flex;
+        margin-top: 50px;
+  }
+  .this{
+    margin-left: 500px;
+    color: white;
+    font-size: 10px;
+    margin-top: 80px;
+  }
+  

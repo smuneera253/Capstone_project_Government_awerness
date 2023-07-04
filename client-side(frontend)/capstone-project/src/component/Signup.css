@@ -1,49 +1,22 @@
-.big{
-    /* background-image: url("../../public/flower.jpeg");
-    background-size:cover ; */
-
-}
+ 
 .main1{
-    width: 900px;
-    height: 700px;
+
     border: 1px solid black;
-    margin-left: 500px;
+    margin-left: 750px;
     display: flex;
-   /* margin-top: 150px;*/
+    margin-top: 150px;
     border-radius: 10px;
+    width: 450px;
+    height: 700px;
+    background-color: rgb(231, 236, 238);
 }
-.main2{
-    width: 400px;
-    height: 600px;
-    border: 1px solid black;
-    margin-left:20px;
-    border-radius: 10px;
-    margin-top: 40px;
-    background-color:#594b4b; 
-     /* opacity: 0.5; */
-    /* background-image: url("../../public/India.jpeg");
-   background-size:cover ; */
 
-}
-.main3{
-    
-    width: 400px;
-    height: 600px;
-    border: 1px solid rgb(8, 8, 8);
-    margin-left:10px;
-    border-radius: 10px;
-   /* background-image: url("../../public/back2.jpeg");
-   background-size:cover ; */
-    margin-top: 40px;
-    background-color: #797272;
-    /* opacity: 0.5; */
 
-}
 .sign{
-    margin-left: 130px;
+    margin-left: 150px;
     font-size: 30px;
     color-scheme: blue;
-    color: aliceblue;
+   
 }
 img{
     height: 600px;
@@ -53,7 +26,7 @@ img{
     width: 45px;
     height: 45px;
     margin-bottom: 110px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
 }
 .logo2{
@@ -81,49 +54,58 @@ img{
     margin-left: 50px;
     margin-top: 50px;
     font-size: 20px;
-    color: aliceblue;
+   
 }
 .user2{
     margin-left: 50px;
     font-size: 20px;
-    color: aliceblue;
+   
 }
 
 .name{
     margin-left: 40px;
-    width: 300px;
+    width: 350px;
     height: 45px;
-    border-radius: 10px;
+    background-color: rgb(253, 251, 248);
+    border: none;
+    font-size: 15px;
 }
 .Email{
     margin-left: 40px;
-    width: 300px;
+    width: 350px;
     height: 45px;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: rgb(244, 243, 241);
+    border: none;
+    font-size: 15px;
 }
 .password{
     margin-left: 40px;
-    width: 300px;
+    width: 350px;
     height: 45px;
-    border-radius: 10px;
+    background-color: rgb(249, 245, 240);
+    border: none;
+    font-size: 15px;
 }
 .or-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px 0;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
   }
   
   .line {
     flex-grow: 2;
     height: 2px;
-    background-color: #e8e3e3;
+    background-color: #0c0c0c;
   }
   
   .or-text {
     margin: 0 10px;
-    color: #ebe5e5;
+    color: #100f0f;
     font-size: 30px;
   }
   .justice{
@@ -137,4 +119,21 @@ img{
     width: 60px;
     margin-bottom: 54px;
     margin-top: 150px;
+  }
+  .main4:hover{
+    background-color: fuchsia;
+  }
+  button{
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 20px;
+    background-color: #090909;
+    color: aliceblue;
+   
+  }
+  .login{
+    margin-top: 50px;
   }
