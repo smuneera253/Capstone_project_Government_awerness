@@ -15,7 +15,7 @@ const Govt =()=>{
         })
     }
     const searchleaderData =()=>{
-        fetch(`http://localhost:5500/search/CM${leaderdata}`).then((res)=>{
+        fetch(`http://localhost:5500/search/${leaderdata}`).then((res)=>{
             return res.json();
         }).then((res)=>{ 
             setleaderData(res);
@@ -27,6 +27,18 @@ const Govt =()=>{
     }
     function clearData(){
         setData("");
+    }
+    const handleClick = async(url) => {
+        try {
+            await fetch(url).then((res) => {
+                return res.json();
+            }).then((res) => {
+                setleaderData(res);
+                console.log(res);
+            })
+        }catch(err){
+            console.error(err);
+        }
     }
     return(<div>
         <div>
@@ -106,14 +118,14 @@ const Govt =()=>{
                     </div> 
                         <div>
                                 <ul>
-                                    <li><p className="PM CM">President</p></li>
-                                    <li><p className="PM CM">Voic President</p></li>
-                                    <li><p className="PM CM">Prime Minister</p></li>
-                                    <li><p className="PM CM">cheif Minister</p></li>
-                                    <li><p className="PM CM">member of parlament.....(MP)</p></li>
-                                    <li><p className="PM CM">member of ligislative assembly....(MLA)</p></li>
-                                    <li><p className="PM CM">Zilla Parishat Territorial Constituencies....(ZPTC)</p></li>
-                                    <li><p className="PM CM">Mandal Parishat Territorial Constituencies....(MPTC )</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/president")}>President</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/voicepresident")}>Voic President</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick()}>Prime Minister</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/cm")}>cheif Minister</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/mp")}>member of parlament.....(MP)</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/mla")}>member of ligislative assembly....(MLA)</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/zptc")}>Zilla Parishat Territorial Constituencies....(ZPTC)</p></li>
+                                    <li><p className="PM CM" onClick={()=>handleClick("http://localhost:5055/mptc")}>Mandal Parishat Territorial Constituencies....(MPTC )</p></li>
                                 </ul>
                                 
                         </div>
@@ -128,11 +140,14 @@ const Govt =()=>{
 
                 return data;
                 }
-            })?.map(({Age,Name,Image,StartingDate,EndingDate,State})=><div>
+            })?.map(({Age,Name,Image,StartingDate,EndingDate,State,Party,jointheDate,district,Sitting ,Mandel,Distric })=>
+            <div>
                 <div className="details backcolor">
                    <div className="imh">
-                    <div className="leaderimg1" ><img src={Image} alt=""/></div>
-                    <p className="Name name1">Name:</p>
+                    <div className="leaderimg1" >
+                        <img src={Image} alt=""/>
+                    </div>
+                    <p className="Name name1">Name</p>
                     <div className="leadername">{Name}</div>
                     <p className="Name name1">Age:</p>
                     <div className="leaderage"> {Age}</div>
@@ -141,7 +156,13 @@ const Govt =()=>{
                     <p className="Name name1">Left:</p>
                     <div className="ending">{EndingDate}</div>
                     <p className="Name name1">State:</p>
-                    <div className="state">{State}</div>
+                    <div className="stating">{State}</div>
+                    <div className="stating">{Party}</div>
+                    <div className="stating">{jointheDate}</div>
+                    <div className="stating">{district}</div>
+                    <div className="stating">{Sitting}</div>
+                    <div className="stating">{Mandel}</div>
+                    <div className="stating">{Distric}</div>
                 </div>
                 <button className="clickme more">View all</button>
                 </div>

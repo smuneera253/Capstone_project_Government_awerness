@@ -174,7 +174,7 @@ function leader(){
                                   <img className="Twitter" src="resources/Twitter.png" alt="image"/>
                                   <img className="linkdil" src="resources/linkdil.png" alt="image"/>
                                   <div>
-                                   <img className="facebook" src="resources/facebook.webp" alt="image"/>
+                                   <img className="facebook1" src="resources/facebook.webp" alt="image"/>
                                    </div>
                             </div>
                             <p className="this">This website offers comprehensive government information, job notifications, and insights on Indian culture, cricket, and agriculture.</p>

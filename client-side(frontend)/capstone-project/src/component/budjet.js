@@ -4,7 +4,7 @@ import './budjet.css'
 function budget(){
     return(
        <div>
-                         <nav className="navbar">
+            <nav className="navbar">
                <div className="line1">
                    <select id="cars">
                            <option value="saab">Urdu</option>

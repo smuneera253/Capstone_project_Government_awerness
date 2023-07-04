@@ -1,6 +1,6 @@
 .forgot1{
     width: 450px;
-    height: 500px;
+    height: 400px;
     margin-left: 550px;
     margin-top: 150px;
     border-radius: 10px;
@@ -59,4 +59,40 @@ button{
 }
 .you{
     margin-left: 70px;
+}
+h1{
+    color: blue;
+}
+.baloon{
+    display: flex;
+}
+.baloon1{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    margin-left: 0px;
+    background-image: url("../../public/resources/flower.jpeg");
+    background-size: cover;
+    background-color: black;
+    /* background-size : 300px; */
+}
+.baloon2{
+    width: 900px;
+    height: 1000px;
+    border: 1px solid black;
+    margin-left: 930px;
+    background-color: bisque;
+
+  
+}
+.login1{
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(242, 242, 134);;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: bisque;
+    box-shadow: rgb(185, 142, 142);
+    background-color: rgb(242, 242, 134);
+    box-shadow: 0 2px 4px rgba(49, 38, 38, 0.2);
 }
